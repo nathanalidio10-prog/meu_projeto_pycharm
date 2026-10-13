@@ -1,0 +1,6 @@
+quantidade_de_ingressos = 10
+if quantidade_de_ingressos > 0:
+    print("Ingressos disponiveis. Divirta-se!")
+else:
+ print("Desculpe, todos os ingressos foram vendidos.")
+

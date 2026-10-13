@@ -1,0 +1,23 @@
+Filme = ["1", "2", "3", "4", "5"]
+
+print("Bem-vindo à classificação dos filmes")
+print("Você tem 5 filmes para classificar")
+print('Digite "0" a qualquer momento para parar.\n')
+
+for filme in Filme:
+    classificação = input(
+        f"Como você classifica o filme {filme} de 1 a 5 (ou 0 para parar): "
+    )
+
+    if classificação == "0":
+        print("Que pena")
+        break
+
+    classificação = int(classificação)
+
+    if classificação < 1 or classificação > 5:
+        print("Nota inválida")
+    else:
+        print(f"Você classificou o filme {filme} com {classificação} estrelas.\n")
+        print("Obrigado")
+
