@@ -1,0 +1,8 @@
+print("Lista de atendimento")
+nome=input("Digite o nome do paciente: ")
+idade=int(input("Digite a idade do paciente: "))
+if idade>=60:
+    print("O paciente", nome, "tem direito a atendimento prioritário,")
+else:
+    print("O paciente", nome, "não tem direito a atendimento prioritario,")
+print("Aguarde ser chamado para atendimento.")

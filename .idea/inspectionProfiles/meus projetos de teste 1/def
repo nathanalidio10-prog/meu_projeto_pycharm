@@ -1,8 +1,0 @@
-def e_par(numero):
-    if numero % 2 ==0:
-        return True
-    else:
-        return False
-    numero = 2232
-    teste = e_par(numero)
-    print(teste)
