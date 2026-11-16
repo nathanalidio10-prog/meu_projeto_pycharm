@@ -1,0 +1,7 @@
+
+
+def soma(a,b): 
+    resultado = a + b
+    return resultado
+resultado_soma = soma(10,3)
+print(resultado_soma)

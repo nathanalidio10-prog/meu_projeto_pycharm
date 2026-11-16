@@ -5,3 +5,4 @@ while numero !=0:
  else:
     print("O numero é impar")
 numero = int(input("Digite um numero(ou 0 para sair): "))    
+ print("obrigado") 
