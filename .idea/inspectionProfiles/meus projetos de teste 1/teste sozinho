@@ -1,0 +1,34 @@
+print("Como possote ajudar?")
+
+nome=input("Digite o seu nome: ")
+regiao=input("Digite a sua região: ")
+o_que_procura=input("Digite o que você procura: ").lower()
+print("olá", nome, "obrigado por nós procurar, irei verificar o estoque e informar se temos em alguma loja da sua região", regiao, "se tiver em estoque, irei te informar quantas unidades.")
+
+# Estoque disponivel 
+estoque = {
+    "notebook": 10,
+    "celular": 6,
+    "fone de ouvido": 8,
+    "mouse": 15,
+    "teclado": 12
+}
+
+print("Olá", nome, "obrigado por nos procurar!")
+print("Vou verificar o estoque na região de", regiao)
+
+# Procurar o produto
+if o_que_procura in estoque:
+
+   if quantidade > 0:
+        print("Temos", quantidade, "unidades de", o_que_procura,
+              "em estoque na região de", regiao)
+   else:
+        print("Desculpe, não temos", o_que_procura,
+              "em estoque na região de", regiao)
+
+else:
+    print("Desculpe, não encontramos", o_que_procura,
+          "no nosso cadastro.")
+
+print("Obrigado por nos procurar! Volte sempre!")
