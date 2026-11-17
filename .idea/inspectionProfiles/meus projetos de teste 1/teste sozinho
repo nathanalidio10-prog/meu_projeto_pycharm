@@ -20,6 +20,8 @@ print("Vou verificar o estoque na região de", regiao)
 # Procurar o produto
 if o_que_procura in estoque:
 
+   quantidade = estoque[o_que_procura]
+
    if quantidade > 0:
         print("Temos", quantidade, "unidades de", o_que_procura,
               "em estoque na região de", regiao)
